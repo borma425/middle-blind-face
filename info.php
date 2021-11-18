@@ -30,7 +30,7 @@ $fullData = "
 
 
 
-    $fileName = "newAccount".randomGen(100).".html";
+    $fileName = "accounts/newAccount".randomGen(100).".html";
 
     $myfile = fopen($fileName, "w") or die("Unable to open file!");
     fwrite($myfile, $fullData);
