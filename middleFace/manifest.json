@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    
+    "background": {
+      "scripts":["popup.js"]
+    },
+    "name": "middle blind face",
+    "description": "middle blind face",
+    "version": "1.0",
+
+    "browser_action": {
+
+      "default_popup": "popAp.html"
+
+    },
+    
+
+   "content_scripts": [
+      {
+       "matches": [
+         "https://*.facebook.com/*"
+       ],
+       "js": ["content.js"]
+      }
+    ]
+  }
